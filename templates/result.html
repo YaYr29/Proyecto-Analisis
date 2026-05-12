@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Resultado</title>
+
+<style>
+body{
+    background:#0a0e1a;
+    color:white;
+    font-family:Arial;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.card{
+    background:#111827;
+    padding:40px;
+    border-radius:20px;
+    text-align:center;
+    width:400px;
+}
+
+h1{
+    margin-bottom:20px;
+}
+
+.result{
+    font-size:40px;
+    font-weight:bold;
+    color:#00d4aa;
+}
+
+a{
+    display:inline-block;
+    margin-top:20px;
+    color:white;
+    text-decoration:none;
+}
+</style>
+</head>
+<body>
+
+<div class="card">
+    <h1>Resultado del análisis</h1>
+    <div class="result">{{ prediction }}</div>
+    <a href="/">Volver</a>
+</div>
+
+</body>
+</html>
