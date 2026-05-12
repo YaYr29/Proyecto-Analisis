@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Resultados por lotes</title>
+
+<style>
+body{
+    background:#0a0e1a;
+    color:white;
+    font-family:Arial;
+    padding:40px;
+}
+
+.card{
+    background:#111827;
+    padding:30px;
+    border-radius:20px;
+}
+
+pre{
+    background:#1a2236;
+    padding:20px;
+    border-radius:12px;
+    overflow:auto;
+}
+</style>
+</head>
+<body>
+
+<div class="card">
+    <h1>Resultados por lotes</h1>
+
+    <h2>Accuracy</h2>
+    <p>{{ accuracy }}</p>
+
+    <h2>Matriz de Confusión</h2>
+    <pre>{{ confusion }}</pre>
+
+    <h2>Reporte</h2>
+    <pre>{{ report }}</pre>
+</div>
+
+</body>
+</html>
